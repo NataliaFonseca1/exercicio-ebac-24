@@ -1,10 +1,13 @@
-function celular (modelo, fabricante, anoFabricacao){
-this.modelo=modelo;
-this.fabricante=fabricante;
-this.anoFabricacao=anoFabricacao;
-}
-
-
+class celular {
+  modelo
+  fabricante
+  anoFabricacao
+  constructor(modelo, fabricante, anoFabricacao){
+    this.modelo=modelo;
+    this.fabricante=fabricante;
+    this.anoFabricacao=anoFabricacao;
+    }
+  }
 
 const celular1= new celular("iphone", "apple", 2019)
 const celular2= new celular ("galaxy", "samsung", 2018)
